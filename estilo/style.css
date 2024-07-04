@@ -217,7 +217,7 @@ div#boas-vindas {
     left: 50%;
     top: 0%;
 
-    width: 50vw;
+    width: 49.5vw;
     height: 60vh;
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -334,6 +334,12 @@ div.pessoas {
 
 .pessoas > h3 {
     padding-top: 20px;
+}
+
+div#mapa {
+    display: block;
+    margin: auto;
+    text-align: center;
 }
 
 footer {
