@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Homemade+Apple&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
@@ -13,6 +15,7 @@
 
     --fonte-destaque: 'Bad Script', 'cursive', sans-serif;
     --fonte-padrão: 'Josefin Sans', 'cursive', sans-serif;
+    --titulo: 'Noto Serif Display', 'cursive', sans-serif;
 }
 
 * {
@@ -35,6 +38,8 @@ nav {
     padding-top: 13px;
     padding-bottom: 13px;
     text-align: center;
+
+    font-family: var(--fonte-padrão);
 }
 
 nav > a {
@@ -79,15 +84,14 @@ div#texto {
 }
 
 div#texto > h1{
-    font-family: var(--fonte-destaque);
+    font-family: var(--titulo);
     
     color: white;
 
-    font-size: 5.5em;
+    font-size: 5em;
     font-weight: bolder;
     text-shadow: rgba(0, 0, 0, 0.267) 2px 2px;
 
-    height: 140px;
     padding-bottom: 10px;
 }
 
@@ -340,6 +344,11 @@ div#mapa {
     display: block;
     margin: auto;
     text-align: center;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    background-color: #ebe598;
 }
 
 footer {

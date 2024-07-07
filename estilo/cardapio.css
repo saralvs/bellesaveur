@@ -12,7 +12,7 @@
     --cor2: #ede580;
 
     --fonte-destaque: 'Bad Script', 'cursive', sans-serif;
-    --fonte-padrão: 'Noto Serif Display', 'cursive', sans-serif;
+    --fonte-padrão: 'Josefin Sans', 'cursive', sans-serif;
 }
 
 * {
@@ -35,6 +35,8 @@ nav {
     padding-top: 13px;
     padding-bottom: 13px;
     text-align: center;
+
+    font-family: var(--fonte-padrão);
 }
 
 nav > a {
@@ -60,7 +62,7 @@ section#apresentacao {
     background-image: url(../estilo/imagens/templates/home03.jpg);
     color: black;
 
-    min-height: 80vh;
+    min-height: 70vh;
     background-position: center top;
     background-size: cover;
     background-attachment: fixed;
@@ -69,8 +71,9 @@ section#apresentacao {
 }
 
 #entradas {
-    background-color: #F7F7F7;
+    margin: auto;
 
+    max-width: 90vw;
     min-height: 80vh;
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -82,8 +85,12 @@ section#apresentacao {
     font-size: 2.5em;
 
     text-align: center;
+    padding-bottom: 100px;
 }
 
 #entradas > img {
-    width: 300px;
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-bottom: 80px;
+
 }
