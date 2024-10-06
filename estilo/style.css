@@ -103,9 +103,6 @@ div#texto > p {
     text-shadow: rgba(0, 0, 0, 0.267) 2px 2px;
 }
 
-
-
-
 section.normal {
     padding-top: 15vh;
     padding-bottom: 10vh;
@@ -221,7 +218,7 @@ div#boas-vindas {
     left: 50%;
     top: 0%;
 
-    width: 49.5vw;
+    width: 49.4vw;
     height: 60vh;
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -234,7 +231,8 @@ div#boas-vindas > h1 {
     font-weight: normal;
     text-align: center;
 
-    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
     font-size: 2.5em;
 
     color: black;
@@ -268,7 +266,8 @@ div#horario > h1 {
     font-weight: normal;
     text-align: center;
 
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+    padding-top: 10px;
     font-size: 2.5em;
 
     color: black;
@@ -279,8 +278,6 @@ div#horario > p {
     color: black;
     line-height: 2em;
 
-    max-width: 30vw;
-    max-height: 10vh;
     margin: auto;
 }
 

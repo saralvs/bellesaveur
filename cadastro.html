@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva Concluída</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <style>
+
+        #fundo {
+            position: relative;
+            background-image: url(estilo/imagens/templates/cadastro.jpg);
+            color: black;
+
+            height: 100vh;
+            background-position: center center;
+            background-size: cover;
+            background-attachment: fixed;
+
+            box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.308);
+        }
+
+        div#texto {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+
+            text-align: center;
+        }
+
+        div#texto > h1{
+            font-family: var(--titulo);
+            
+            color: white;
+
+            font-size: 3em;
+            font-weight: bolder;
+            text-shadow: rgba(0, 0, 0, 0.267) 2px 2px;
+
+            padding-bottom: 15px;
+        }
+        div#texto > a {
+            color: white;
+            font-weight: normal;
+
+            font-size: 1.2em;
+            text-shadow: rgba(0, 0, 0, 0.267) 2px 2px;
+            text-decoration: underline;
+        }
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="cardapio.html">Cardápio</a>
+        <a href="reservas.html">Reserva</a>
+    </nav>
+
+    <section id="fundo">
+        <div id="texto">
+            <h1>Reserva concluída com sucesso!</h1>
+            <a href="index.html"><p>Voltar à página inicial</p></a>
+        </div>
+    </section>
+
+</body>
+</html>

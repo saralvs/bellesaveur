@@ -21,62 +21,69 @@
     </section>
 
     <section id="cadastro">
-        <form action="cadastro.php" method="post">
-            <div id="left">
+        <form action="cadastro.html" method="post">
+            <div class="left">
                 <label for="inome">Nome completo:</label>
                 <input type="text" name="nome" id="inome" required size="40">
             </div>
             
         
-            <div id="left">
+            <div class="left">
                 <label for="iemail">E-mail:</label>
                 <input type="email" name="email" id="iemail" autocomplete="email" required size="40">
             </div>
             
         
-            <div id="right">
+            <div id="right01">
                 <label for="itel">Telefone:</label>
-                <input type="tel" name="tel" id="itel" pattern="^\(\d{2}\) \d{4,5} - \d{4}$" placeholder="(xx) xxxx-xxxx" required size="10">
+                <input type="tel" name="tel" id="itel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(xx) xxxx-xxxx" required size="15">
             </div>
             
 
         
-            <div id="left">
+            <div id="right03">
                 <label for="iuni">Unidade da reserva:</label>
-                <select name="uni" id="iuni">
+                <select name="uni" id="iuni" required>
                     <option value="" selected></option>
                     <option value="PB">Patos - PB</option>
                     <option value="RN">Natal - RN</option>
+                    <option value="ES">Vitória - ES</option>
                     <option value="SP">Rio Claro - SP</option>
                 </select>
             </div>
             
-            <div>
+            <div id="right02">
                 <label for="idata">Data:</label>
-                <input type="date" name="data" id="idata">
+                <input type="date" name="data" id="idata" required>
             </div>
 
-            <div>
+            <div class="left">
                 <label for="ihora">Horário:</label>
-                <input type="time" name="hora" id="ihora">
+                <input type="time" name="hora" id="ihora" required>
             </div>
 
-            <div id="left">
+            <div class="left">
                 <label for="imsg">Preferências (caso haja alguma):</label> <br>
                 <textarea name="msg" id="imsg" style="resize: none;" cols="50" rows="8"></textarea>
             </div>
 
-            <div>
+            <div id="right04">
                 <label for="iquant">Quantidade de pessoas:</label>
-                <input type="number" name="quant" id="iquant">
+                <input type="number" name="quant" id="iquant" required>
             </div>
         
-            <div>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Limpar">
+            <div id="envio">
+                <input type="submit" value="Enviar" id="submit">
+                <input type="reset" value="Limpar" id="reset">
             </div>
             
         </form>
     </section>
+    <footer>
+        <img src="estilo/imagens/detalhes/insta.png" alt="logotipo do instagram">
+        <h1><a href="https://www.instagram.com/_bellesaveur_/" target="_blank">_bellesaveur_</a></h1>
+        <h2>☆☆☆☆☆</h2>
+        <p>Desenvolvido por <a href="https://www.instagram.com/saralvs_/" target="_blank">Sara Alves</a>, <a href="https://www.instagram.com/dan._laiz/" target="_blank">Damilly Laiz</a> e <a href="https://www.instagram.com/tulinnnn1/" target="_blank">Túlio César</a> </p>
+    </footer>
 </body>
 </html>
