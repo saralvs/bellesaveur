@@ -60,10 +60,10 @@ nav > a:hover {
 
 section#apresentacao {
     position: relative;
-    background-image: url(../estilo/imagens/templates/cardapio.jpg);
+    background-image: url(../estilo/imagens/templates/reserva.jpg);
     color: black;
 
-    height: 70vh;
+    height: 95vh;
     background-position: center top;
     background-size: cover;
     background-attachment: fixed;
@@ -71,7 +71,40 @@ section#apresentacao {
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.308)
 }
 
-h1 {
+div#texto {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
     text-align: center;
+    min-width: 97vw;
+}
+
+div#texto > h1{
+    font-family: var(--titulo);
+    
+    color: white;
+
+    font-size: 5em;
+    text-shadow: rgba(0, 0, 0, 0.267) 2px 2px;
+
+    padding-bottom: 10px;
+}
+
+div#texto > p {
+    color: white;
+    font-weight: normal;
+
+    font-size: 1.4em;
+    text-shadow: rgba(0, 0, 0, 0.267) 2px 2px;
+}
+
+section#cadastro div {
     padding: 20px;
 }
+
+.left {
+    text-align: right;
+}
+
